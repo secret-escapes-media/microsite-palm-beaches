@@ -1,0 +1,25 @@
+// background styles
+
+.bg {
+  &--white { background-color: $white; }
+  &--light { background-color: $grey-lightest; }
+  &--dark  { background-color: $grey-dark; }
+  &--turquoise  { background-color: $bv-turquoise; }
+  &--blue  { background-color: $bv-blue; }
+  &--darkblue  { background-color: $bv-darkblue; }
+  &--yellow  { background-color: $bv-yellow; }
+  &--lightgrey  { background-color: $bv-lightgrey; }
+  &--img   { @include background-attributes; }
+  &__fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: $z-background;
+    @include background-attributes;
+    background-color: $grey-darker;
+  }
+
+  &--grey  { background-color: $grey-lighter; }
+}

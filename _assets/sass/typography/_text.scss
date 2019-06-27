@@ -1,0 +1,42 @@
+// general modifier styles for text
+
+.text {
+  font-family: $font-text-01;
+  // sizes
+  &--xxxl { font-size: 1.5rem; line-height: 1.6; letter-spacing: 0; }
+  &--xxl { font-size: 1.2rem; line-height: 1.6; letter-spacing: 0; }
+  &--xl  { font-size: 1.1rem; line-height: 1.6; letter-spacing: 0; }
+  &--lg  { font-size: 1.05rem; letter-spacing: 0; }
+  &--sm  { font-size: .8rem; }
+
+  // styles
+  &--italic       { font-style: italic; }
+  &--thin         { font-weight: 100; }
+  &--light        { font-weight: 200; }
+  &--normal       { font-weight: 400; }
+  &--bold         { font-weight: 700; }
+  &--bolder       { font-weight: 800; }
+  &--wide-kern    { letter-spacing: .25em; }
+  &--wide-kern-lg { letter-spacing: .5em; }
+  &--upper        { text-transform: uppercase; }
+
+  // colours
+  &--white { color: $grey-lightest; }
+  &--black { color: $grey-dark; }
+  &--blue { color: $bv-blue; }
+  &--yellow { color: $bv-yellow; }
+  &--bv-orange { color: $bv-orange; }
+  &--darkblue { color: $bv-darkblue; }
+  &--turquoise { color: $bv-turquoise; }
+  &--black { color: $grey-dark; }
+
+  // alignment
+  &--left   { text-align: left; }
+  &--right  { text-align: right; }
+  &--center { text-align: center; }
+  @include bp($lg) {
+    &--bp-left   { text-align: left; }
+    &--bp-right  { text-align: right; }
+    &--bp-center { text-align: center; }
+  }
+}

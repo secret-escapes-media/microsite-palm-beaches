@@ -1,0 +1,81 @@
+// general styles for the project that wouldn't be a reuseable component
+
+/* ==========================================================================
+   Dividers & Alignment
+   ========================================================================== */
+
+   .bv-title-divider::after{
+     content: url(../img/icons/palm-leave-white.svg);
+    width: 90px;
+     display: block;
+     margin: 20px -10px -15px;
+     //transform: scale(.25);
+
+     @include bp($sm) {
+       content: url(../img/icons/palm-leave-white.svg);
+      width: 100px;
+       display: block;
+       margin: 20px -10px -15px;
+       //transform: scale(.25);
+
+     }
+
+     @include bp($md) {
+       content: url(../img/icons/palm-leave-white.svg);
+      width: 120px;
+       display: block;
+       margin: 20px -10px -15px;
+       //transform: scale(.25);
+     }
+
+     @include bp($xl) {
+       content: url(../img/icons/palm-leave-white.svg);
+      width: 150px;
+       display: block;
+       margin: 20px -10px -15px;
+       //transform: scale(.25);
+
+     }
+   }
+
+.bv-pois-margin{
+
+  margin-top: auto;
+  @include bp($md) {
+    margin-top: -150px;
+
+  }
+}
+
+/* ==========================================================================
+   Parallax & Backgrounds
+   ========================================================================== */
+
+.bv-parallax{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  //background-blend-mode: luminosity;
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+.bv-remove-bg{
+  background-image: none!important;
+}
+
+.bv-parallax{
+      background-attachment: scroll;
+      background-size: cover;
+      }
+
+}
+.bv-section-bg{
+  background-color: $bv-darkblue;
+}
+
+.bv-banner-out{
+  //opacity: .5;
+}

@@ -1,0 +1,28 @@
+#####################################
+#
+#  OPTIONS
+#
+#    pages:
+#      - id: overview         # (shows on specific page)
+#      - id: all              # (shows on all pages)
+#      - layout: group-page   # (shows on specific layout)
+#
+#   # if option is not set, defaul is standard html content
+#   type:
+#     youtube     # loads in a different thing
+#     series      # this is a parent container that has contents
+#
+#   # when included, an extra html is used for a full width image
+#   image: 'example-image-name.jpg'
+#
+#
+#
+#####################################
+
+- id: standard
+  pages:
+    - id: all
+  content: >
+    <div class="title title--lg">Standard Modal</div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium maxime est soluta expedita inventore corrupti ipsam illo, eligendi sit id accusamus iure dicta qui suscipit culpa fugiat possimus consequatur totam iste perspiciatis delectus nesciunt deleniti, cumque nemo labore? Nesciunt explicabo velit iure, et voluptatibus beatae vitae laboriosam. Magni suscipit, facere eum culpa ab ullam, accusantium tempora, ut similique vero odit placeat sit tenetur quas, consectetur eaque. Praesentium distinctio, quae mollitia amet! Libero debitis minima cumque, eaque ipsam rerum porro, quo.</p>
+    <p>Quos non sit omnis cum facilis, laborum culpa natus totam quae animi magnam minima aspernatur, harum dolorem nostrum maxime distinctio! Facilis hic exercitationem, blanditiis, saepe iusto minus libero unde amet molestiae, nemo id! Dolores aperiam commodi dolore neque ipsum rerum error, eum. Ratione rem maxime incidunt quam nostrum, voluptas alias soluta accusamus magni quibusdam, tempore numquam! Unde nemo a optio dolore sunt ex repellat molestiae quisquam quas. Fugiat, eligendi ullam. Exercitationem sapiente neque debitis omnis commodi cumque illo magni quam.</p>
