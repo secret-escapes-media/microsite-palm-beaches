@@ -17,6 +17,26 @@
   &--orange { background-color: $orange;
     &:hover { background-color: $orange-dark; }
   }
+  &--gradient {
+    color: $bv-blue;
+    text-transform: none;
+    letter-spacing: .015em;
+    font-weight: 600;
+    font-size: $s1;
+    padding: $s2 $s1 0 2px;
+    background-color: $white; /* For browsers that do not support gradients */
+    &:before{
+      content:'‣';
+      vertical-align: -15%;
+    font-size: $s4;
+    margin-top: 5px;
+  }
+    &:hover {
+      color: $bv-yellow;
+      text-transform: none;
+      //font-weight: 600;
+      background-color: $white; /* For browsers that do not support gradients */}
+  }
   &--outline {
     color: inherit;
     &:before {

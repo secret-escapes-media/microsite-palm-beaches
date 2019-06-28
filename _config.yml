@@ -10,10 +10,10 @@ description: >
 
 # file paths
 url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
-baseurl: "/de/palm-beaches" # the subpath of your site, e.g. /blog/
-img:     "/de/palm-beaches/_assets/img"
-css:     "/de/palm-beaches/_assets/css"
-js:      "/de/palm-beaches/_assets/js"
+baseurl: "/de/the-palm-beaches" # the subpath of your site, e.g. /blog/
+img:     "/de/the-palm-beaches/_assets/img"
+css:     "/de/the-palm-beaches/_assets/css"
+js:      "/de/the-palm-beaches/_assets/js"
 
 
 # Build settings
