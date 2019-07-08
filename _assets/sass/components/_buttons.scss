@@ -17,14 +17,17 @@
   &--orange { background-color: $orange;
     &:hover { background-color: $orange-dark; }
   }
-  &--gradient {
+  &--bv-orange { background-color: $bv-orange;
+    &:hover { background-color: rgba($bv-yellow, .9); }
+  }
+  &--arrow {
     color: $bv-blue;
     text-transform: none;
     letter-spacing: .015em;
     font-weight: 600;
     font-size: $s1;
     padding: $s2 $s1 0 2px;
-    background-color: $white; /* For browsers that do not support gradients */
+
     &:before{
       content:'‣';
       vertical-align: -15%;
@@ -34,8 +37,30 @@
     &:hover {
       color: $bv-yellow;
       text-transform: none;
+      }
+  }
+  &--gradient {
+    //color: $bv-blue;
+    text-transform: none;
+    letter-spacing: .015em;
+    font-weight: 600;
+    font-size: $s1;
+    //padding: $s2 $s1 0 2px;
+    background-color: $bv-turquoise; /* For browsers that do not support gradients */
+    background-image: linear-gradient(-45deg, $bv-yellow, $bv-turquoise); /* Standard syntax (must be last) */
+    &:before{
+
+      vertical-align: -15%;
+    font-size: $s4;
+    margin-top: 5px;
+  }
+    &:hover {
+      //color: $bv-yellow;
+      text-transform: none;
       //font-weight: 600;
-      background-color: $white; /* For browsers that do not support gradients */}
+      background-color: $bv-turquoise; /* For browsers that do not support gradients */
+      //background-image: linear-gradient(-45deg, $bv-yellow, $bv-turquoise); /* Standard syntax (must be last) */
+    }
   }
   &--outline {
     color: inherit;

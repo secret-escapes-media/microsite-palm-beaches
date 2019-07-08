@@ -1,9 +1,10 @@
 - id: one
   title: Jetset-Life in The&nbsp;Palm&nbsp;Beaches
   nav-title: jetsetter
-  description: "Sehen und Gesehen Werden, das Leben und jeden einzelnen Moment genießen und das alles mit Stil – so sieht der Jetset-Lifestyle in The Palm Beaches aus. Abwechslung ist hier garantiert: Fashion Trends treffen auf Avantgarde-Kunst und gehobene Restaurants auf trendige Barkultur. Entdecken Sie die besten Tipps für Jetsetter."
+  bg-pos: "background-position: 60% center;"
+  description: "Sehen und Gesehen Werden, das Leben und jeden einzelnen Moment genießen und das alles mit Stil – so sieht der Jetset-Lifestyle in The Palm Beaches aus. Abwechslung ist hier garantiert: Fashion Trends treffen auf Avantgarde-Kunst und gehobene Restaurants auf trendige Barkultur. Entdecken Sie die besten Tipps für&nbsp;Jetsetter."
   special-tip-title: "Northwood Village West Palm&nbsp;Beach"
-  special-tip-content: "Wer nach kulinarischen Neuentdeckungen, aufstrebenden Künstlern und den Styles von morgen sucht, sollte Northwood Village nördlich von Downtown einen Besuch abstatten. Rund um die Northwood Road vermischt sich pittoreske Architektur mit historischem Flair, hipper Kaffeehauskultur und bunter Straßenkunst zu einem einzigartigen Lebensgefühl. Besonders zu empfehlen ist die Art Night Out am jeweils letzten Freitag des Monats, an dem Sie mit einem Wein in der Hand durch die Straßen schlendern können."
+  special-tip-content: "Wer nach kulinarischen Neuentdeckungen, aufstrebenden Künstlern und den Styles von morgen sucht, sollte Northwood Village nördlich von Downtown einen Besuch abstatten. Rund um die Northwood Road vermischt sich pittoreske Architektur mit historischem Flair, hipper Kaffeehauskultur und bunter Straßenkunst zu einem einzigartigen Lebensgefühl. Besonders zu empfehlen ist die Art Night Out am jeweils letzten Freitag des Monats, an dem Sie mit einem Wein in der Hand durch die Straßen schlendern&nbsp;können."
 
   pois:
 
@@ -12,15 +13,15 @@
 
       - id: poi-1-1
         title: Flagler Museum
-        description: "1902 machte der Eisenbahnmagnat Henry Morrison Flagler seiner Frau ein ganz besonderes Hochzeitsgeschenk: einen herrschaftliche Sommersitz im Beaux-Arts-Stil. Das imposante Anwesen gleicht einem Marmorpalast und versprüht noch immer den Charme des amerikanischen Neoklassizismus – von der ehrwürdigen Bibliothek bis zum pompösen Tanzsaal. Heute ist es ein Museum, in dem Sie sich auf die Spuren des Gilded Age begeben und wechselnde Ausstellungen besuchen können."
+        description: "1902 machte der Eisenbahnmagnat Henry Morrison Flagler seiner Frau ein ganz besonderes Hochzeitsgeschenk: einen herrschaftliche Sommersitz im Beaux-Arts-Stil. Das imposante Anwesen gleicht einem Marmorpalast und versprüht noch immer den Charme des amerikanischen Neoklassizismus – von der ehrwürdigen Bibliothek bis zum pompösen Tanzsaal. Heute ist es ein Museum, in dem Sie sich auf die Spuren des Gilded Age begeben und wechselnde Ausstellungen besuchen&nbsp;können."
 
       - id: poi-1-2
         title: Clematis Street
-        description: "Im historischen Herzen von West Palm Beach pulsiert das Leben mit spektakulärer Aussicht auf die Downtown Waterfront und die bei Nacht beleuchteten Springbrunnen. Nicht nur zu den zahlreichen Events wie Clematis By Night und dem SunFest zieht diese dynamische Gegend Besucher geradezu magisch an. Mit seinen vielen Geschäften, edlen Boutiquen und Antiquariaten sowie den feinsten Restaurants und Bars ist es jederzeit einen Besuch wert."
+        description: "Im historischen Herzen von West Palm Beach pulsiert das Leben mit spektakulärer Aussicht auf die Downtown Waterfront und die bei Nacht beleuchteten Springbrunnen. Nicht nur zu den zahlreichen Events wie Clematis By Night und dem SunFest zieht diese dynamische Gegend Besucher geradezu magisch an. Mit seinen vielen Geschäften, edlen Boutiquen und Antiquariaten sowie den feinsten Restaurants und Bars ist es jederzeit einen Besuch&nbsp;wert."
 
       - id: poi-1-3
         title: Kunstszene
-        description: "Die Kunstszene im Süden Floridas ist vielfältig und dynamisch. Das Norton Museum of Art in West Palm Beach zeigt Amerikanische, Chinesische und Europäische moderne Kunst und das Boca Raton Museum of Art begeistert das internationale Publikum mit immer neuen Ausstellungen. In Delray Beach erwarten Sie unter anderem der historische Old School Square, wo Sie innovative bis provokante Kunstwerke bestaunen können und die Arts Garage, die besonders lokale Künstler unterstützt."
+        description: "Die Kunstszene im Süden Floridas ist vielfältig und dynamisch. Das Norton Museum of Art in West Palm Beach zeigt Amerikanische, Chinesische und Europäische moderne Kunst und das Boca Raton Museum of Art begeistert das internationale Publikum mit immer neuen Ausstellungen. In Delray Beach erwarten Sie unter anderem der historische Old School Square, wo Sie innovative bis provokante Kunstwerke bestaunen können und die Arts Garage, die besonders lokale Künstler&nbsp;unterstützt."
 
 
 
@@ -32,9 +33,10 @@
 - id: two
   title: Strandparadies The&nbsp;Palm&nbsp;Beaches
   nav-title: strandliebhaber
-  description: "Der Süden Floridas steht für hohe Palmen und lange Sandstrände – doch dieses Strandparadies hat noch mehr zu bieten! In The Palm Beaches finden Sie einige der besten Schnorchel- und Tauchspots und haben viele Möglichkeiten, dieses einzigartige Ökosystem und seine Bewohner zu entdecken. Diese Highlights sollten Sie keinesfalls verpassen."
+  bg-pos: "background-position: 70% center;"
+  description: "Der Süden Floridas steht für hohe Palmen und lange Sandstrände – doch dieses Strandparadies hat noch mehr zu bieten! In The Palm Beaches finden Sie einige der besten Schnorchel- und Tauchspots und haben viele Möglichkeiten, dieses einzigartige Ökosystem und seine Bewohner zu entdecken. Diese Highlights sollten Sie keinesfalls&nbsp;verpassen."
   special-tip-title: "Benny's on the&nbsp;Beach"
-  special-tip-content: "Gönnen Sie sich eine kleine Auszeit auf dem Lake Worth Pier, mit Blick auf die Wellen des Atlantischen Ozeans. Das Restaurant Benny's on the Beach ist seit über 30 Jahren eine echte Institution, die sowohl in der lokalen Surfszene als auch bei anspruchsvollern Besuchern beliebt ist. Genießen Sie amerikanische Klassiker wie saftige Burger, fangfrische Meeresfrüchte von Fisch und Muscheln bis zum exklusiven Hummer sowie saisonale Innovationen des Küchenchefs. "
+  special-tip-content: "Gönnen Sie sich eine kleine Auszeit auf dem Lake Worth Pier, mit Blick auf die Wellen des Atlantischen Ozeans. Das Restaurant Benny's on the Beach ist seit über 30 Jahren eine echte Institution, die sowohl in der lokalen Surfszene als auch bei anspruchsvollen Besuchern beliebt ist. Genießen Sie amerikanische Klassiker wie saftige Burger, fangfrische Meeresfrüchte von Fisch und Muscheln bis zum exklusiven Hummer sowie saisonale Innovationen des&nbsp;Küchenchefs. "
 
   pois:
 
@@ -43,15 +45,15 @@
 
       - id: poi-1-1
         title: Red Reef & DuBois&nbsp;Park
-        description: "Direkt am Atlantik liegt der 27 ha große Red Reef Park und lädt zum Golfen, Wandern, Schwimmen und Schnorcheln. Entlang der neu gestalteten Strandpromenade eröffnen sich traumhafte Panoramen, während Sie im Inneren des Parks das Gumbo Limbo Nature Center mit einem Schmetterlingsgarten, Outdoor-Aquarien und Wanderwegen durch die Mangrovenwälder erwartet. Der DuBois Park liegt direkt am Jupiter Inlet und mit Blick auf den Leuchtturm. Von hier aus können Sie zu Kanu- oder Kajaktouren auf dem  Loxahatchee-Fluss starten oder per Boot oder Jet-Ski den Intracoastal Waterway erkunden."
+        description: "Direkt am Atlantik liegt der 27 ha große Red Reef Park und lädt zum Golfen, Wandern, Schwimmen und Schnorcheln. Entlang der neu gestalteten Strandpromenade eröffnen sich traumhafte Panoramen, während Sie im Inneren des Parks das Gumbo Limbo Nature Center mit einem Schmetterlingsgarten, Outdoor-Aquarien und Wanderwegen durch die Mangrovenwälder erwartet. Der DuBois Park liegt direkt am Jupiter Inlet mit Blick auf den Leuchtturm. Von hier aus können Sie zu Kanu- oder Kajaktouren auf dem  Loxahatchee-Fluss starten oder per Boot oder Jet-Ski den Intracoastal Waterway&nbsp;erkunden. "
 
       - id: poi-1-2
         title: Peanut Island
-        description: "Erleben Sie zur Abwechslung doch mal echtes Inselfeeling, nur einen Katzensprung vom Festland entfernt: Wer mit dem Boot auf Peanut Island übersetzt, findet ein kleines Inselparadies direkt am Palm Beach Inlet. Rund um das winzige Eiland können Sie kajaken, schnorcheln und angeln oder aber einfach am Sandstrand die Sonne genießen. Unser Tipp: Packen Sie den Picknick-Korb, denn hier gibt es keine Gastronomie. "
+        description: "Erleben Sie zur Abwechslung doch mal echtes Inselfeeling, nur einen Katzensprung vom Festland entfernt: Wer mit dem Boot auf Peanut Island übersetzt, findet ein kleines Inselparadies direkt am Palm Beach Inlet. Rund um das winzige Eiland können Sie kajaken, schnorcheln und angeln oder aber einfach am Sandstrand die Sonne genießen. Unser Tipp: Packen Sie den Picknick-Korb, denn hier gibt es keine&nbsp;Gastronomie. "
 
       - id: poi-1-3
         title: Loggerhead Marinelife&nbsp;Center
-        description: "Im Sommer zwischen Juli und September können Sie im Loggerhead Marinelife Center aus erster Hand erfahren, wie jedes Jahr aufs Neue Meeresschildkröten in The Palms Beaches schlüpfen und den ersten Weg in den Ozean bewältigen. Auf den geführten Spaziergängen erfahren Sie ebenfalls, wie verletzte Tiere im Sea Turtle Hospital gepflegt werden. Auch im Winter zwischen Oktober und Mai können Sie zusammen mit den lokalen Experten die Strände und das Ökosystem Küste erkunden."
+        description: "Im Sommer zwischen Juli und September können Sie im Loggerhead Marinelife Center aus erster Hand erfahren, wie jedes Jahr aufs Neue Meeresschildkröten schlüpfen und den ersten Weg in den Ozean bewältigen. Auf den geführten Spaziergängen erfahren Sie ebenfalls, wie verletzte Tiere im Sea Turtle Hospital gepflegt werden. Auch im Winter zwischen Oktober und Mai können Sie zusammen mit den lokalen Experten die Strände und das Ökosystem Küste&nbsp;erkunden."
 
 
 
@@ -62,9 +64,10 @@
 - id: three
   title: Luxusleben in The&nbsp;Palm&nbsp;Beaches
   nav-title: luxusreisende
-  description: "Das Luxusleben in The Palm Beaches folgt dem Motto: Das Beste ist gerade gut genug. Shopping in namhaften Designer-Stores, einzigartige Avantgarde-Kunst, Ausflüge auf exklusiven Yachten und ein Plausch mit der Elite des Polo-Sports – so könnte Ihr nächster Luxusurlaub aussehen. Lassen Sie sich inspirieren."
+  bg-pos: "background-position: 60% center;"
+  description: "Das Luxusleben in The Palm Beaches folgt dem Motto: Das Beste ist gerade gut genug. Shopping in namhaften Designer-Stores, einzigartige Avantgarde-Kunst, Ausflüge auf exklusiven Yachten und ein Plausch mit der Elite des Polo-Sports – so könnte Ihr nächster Luxusurlaub aussehen. Lassen Sie sich&nbsp;inspirieren."
   special-tip-title: "Sunday Brunch im International Polo&nbsp;Club "
-  special-tip-content: "Britische Noblesse unter der Sonne Floridas: Im International Polo Club Palm Beach erleben Sie zwischen Januar und April Weltklassespieler und ihre beeindruckenden Pferde bei verschiedenen Wettkämpfen aus nächster Nähe. Doch auch ohne Adelstitel und extravagante Hüte können Sie dort am traditionellen Sunday Brunch teilnehmen und sich bei einem Glas Champagner wie ein Teil der High Society fühlen."
+  special-tip-content: "Britische Noblesse unter der Sonne Floridas: Im International Polo Club Palm Beach erleben Sie zwischen Januar und April Weltklassespieler und ihre beeindruckenden Pferde bei verschiedenen Wettkämpfen aus nächster Nähe. Doch auch ohne Adelstitel und extravagante Hüte können Sie dort am traditionellen Sunday Brunch teilnehmen und sich bei einem Glas Champagner wie ein Teil der High Society&nbsp;fühlen."
 
   pois:
 
@@ -73,15 +76,15 @@
 
       - id: poi-1-1
         title: Shopping in der Worth&nbsp;Avenue
-        description: Manche sagen, die Worth Avenue sei die schönste Einkaufsstraße des Landes. Immerhin können Sie hier in direkter Nähe zum Ozean unter hohen Palmen flanieren – vorbei an Jimmy Choo, Louis Vuitton und Neiman Marcus. Für USA Today zählt sie jedenfalls zu den Top-10 Ikonischen Straßen der USA. So wundert es nicht, dass man beim exklusiven Shopping hier auch den einen oder anderen Promi treffen kann.
+        description: Manche sagen, die Worth Avenue sei die schönste Einkaufsstraße des Landes. Immerhin können Sie hier in direkter Nähe zum Ozean unter hohen Palmen flanieren – vorbei an Jimmy Choo, Louis Vuitton und Neiman Marcus. Für USA Today zählt sie jedenfalls zu den Top-10 Ikonischen Straßen der USA. So wundert es nicht, dass man beim exklusiven Shopping hier auch den einen oder anderen Promi treffen&nbsp;kann.
 
       - id: poi-1-2
         title: Society of the Four&nbsp;Arts
-        description: Kunst, Musik, Literatur und Theater – das sind die Grundpfeiler der Society of the Four Arts. In der Galerie werden wechselnde Ausstellungen gezeigt, im Walter S. Gubelmann Auditorium klassische Konzerte, Lesungen und andere Veranstaltungen. Streifen Sie durch die Bibliothek und spüren Sie einen Moment lang die Stille oder begeben Sie sich auf die Suche nach den 23 Figuren des Philip Hulitar Sculpture Garden.
+        description: Kunst, Musik, Literatur und Theater – das sind die Grundpfeiler der Society of the Four Arts. In der Galerie werden wechselnde Ausstellungen gezeigt, im Walter S. Gubelmann Auditorium klassische Konzerte, Lesungen und andere Veranstaltungen. Streifen Sie durch die Bibliothek und spüren Sie einen Moment lang die Stille oder begeben Sie sich auf die Suche nach den 23 Figuren des Philip Hulitar Sculpture&nbsp;Garden.
 
       - id: poi-1-3
         title: Yachtausflug
-        description: "Was könnte luxuriöser sein, als sich auf einer strahlend weißen Yacht mit einem Drink in der Hand in der Sonne zu räkeln, während Sie durch die Wellen preschen und die Palmenstrände Floridas an Ihnen vorbei ziehen? Chartern Sie Ihre eigene Luxusyacht und lassen Sie sich von den erfahrenen Skippern zu den besten Angel- oder Schnorchelplätzen bringen. Mit etwas Glück begleiten Sie verspielte Delfine auf Ihrem Weg."
+        description: "Was könnte luxuriöser sein, als sich auf einer strahlend weißen Yacht mit einem Drink in der Hand in der Sonne zu räkeln, während Sie durch die Wellen preschen und die Palmenstrände Floridas an Ihnen vorbei ziehen? Chartern Sie Ihre eigene Luxusyacht und lassen Sie sich von den erfahrenen Skippern zu den besten Angel- oder Schnorchelplätzen bringen. Mit etwas Glück begleiten Sie verspielte Delfine auf Ihrem&nbsp;Weg."
 
 
 
@@ -92,10 +95,11 @@
 - id: four
   title: The Palm Beaches für&nbsp;Abenteurer
   nav-title: abenteurer
-  description: "Florida hat so viel mehr zu bieten als paradiesische Strände und hält unvergessliche Erlebnisse für Sie bereit. Schwimmen Sie mit anmutig durchs Wasser gleitenden Stachelrochen in einem der berühmtesten Tauchgebiete der Welt, radeln Sie von Panorama zu Panorama auf malerischen Küstenwegen oder probieren Sie doch mal Yoga mit Seekühen aus! Anschließend erwarten Sie erlesene Aromen und gewagte Kompositionen in den Gourmettempeln der Stadt."
+  bg-pos: "background-position: 80% center;"
+  description: "Florida hat so viel mehr zu bieten als paradiesische Strände und hält unvergessliche Erlebnisse für Sie bereit. Schwimmen Sie mit anmutig durchs Wasser gleitenden Stachelrochen in einem der berühmtesten Tauchgebiete der Welt, radeln Sie von Panorama zu Panorama auf malerischen Küstenwegen oder probieren Sie doch mal Yoga mit Seekühen aus! Anschließend erwarten Sie erlesene Aromen und gewagte Kompositionen in den Gourmettempeln der&nbsp;Stadt."
   special-tip-title: "Grandview Public&nbsp;Market "
   special-tip-pre: "Food-"
-  special-tip-content: "Vergessen Sie New Yorks Chelsea Market – der Grandview Public Market ist der neue Foodie-Hotspot. Hier versammelt sich die Gourmets und ambitionierten Genießer von The Palm Beaches und kosten die neuesten Trends aus Los Angeles und der ganzen Welt. Von mexikanischer Fusionsküche bis zu trendigen Poke Bowls wird für jeden Geschmack die passende Gaumenfreude geboten. Wechselnde Events krönen den Besuch dieser Markthalle."
+  special-tip-content: "Vergessen Sie New Yorks Chelsea Market – der Grandview Public Market ist der neue Foodie-Hotspot. Hier versammeln sich die Gourmets und ambitionierten Genießer von The Palm Beaches und kosten die neuesten Trends aus Los Angeles und der ganzen Welt. Von mexikanischer Fusionsküche bis zu trendigen Poke Bowls wird für jeden Geschmack die passende Gaumenfreude geboten. Wechselnde Events krönen den Besuch dieser&nbsp;Markthalle."
 
   pois:
 
@@ -103,13 +107,13 @@
     items:
 
       - id: poi-1-1
-        title: Schnorchelm im Phil&nbsp;Foster&nbsp;Park
-        description: "Vor den kilometerlangen palmengesäumten Stränden liegen über 151 nicht weniger eindrucksvolle künstliche Riffe. Die Gewässer unter der Blue Heron Bridge gehören zum weltberühmten Phil Foster Park, der sowohl für erfahrene Scuba-Taucher als auch für Schnorchel-Neulinge eine einzigartige Erfahrung ist. Stachelrochen, Aale, Riesenseesterne und unzählige bunte Tropenfische leben hier und auch Oktopusse und Seekühe kommen ab und an zu Besuch. "
+        title: Schnorcheln im Phil&nbsp;Foster&nbsp;Park
+        description: "Vor den kilometerlangen palmengesäumten Stränden liegen über 151 nicht weniger eindrucksvolle künstliche Riffe. Die Gewässer unter der Blue Heron Bridge gehören zum weltberühmten Phil Foster Park, der sowohl für erfahrene Scuba-Taucher als auch für Schnorchel-Neulinge eine einzigartige Erfahrung ist. Stachelrochen, Aale, Riesenseesterne und unzählige bunte Tropenfische leben hier und auch Oktopusse und Seekühe kommen ab und an zu&nbsp;Besuch. "
 
       - id: poi-1-2
         title: Radtour entlang des Lake&nbsp;Trails
-        description: "Auf dem Lake Trail im Westen von Palm Beach genießen Spaziergänger und Fahrradfahrer die Sonne vor einer idyllischen Kulisse aus violetter Bougainvillea und Efeu. Auf etwas mehr als 8 km beginnt der Weg mit einem unglaublichen Panorama auf die Lake Worth Lagune, führt an den Palm Beach Town Docks vorbei und verläuft später gegenüber der atemberaubenden Skyline von West Palm Beach. Unterwegs kommen Sie an wunderbar erhaltener 60er-Jahre-Architektur, romanischen Statuen und historischen Sehenswürdigkeiten vorbei.  "
+        description: "Auf dem Lake Trail im Westen von Palm Beach genießen Spaziergänger und Fahrradfahrer die Sonne vor einer idyllischen Kulisse aus violetter Bougainvillea und Efeu. Auf etwas mehr als 8 km beginnt der Weg mit einem unglaublichen Panorama auf die Lake Worth Lagune, führt an den Palm Beach Town Docks vorbei und verläuft später gegenüber der atemberaubenden Skyline von West Palm Beach. Unterwegs kommen Sie an wunderbar erhaltener 60er-Jahre-Architektur, romanischen Statuen und historischen Sehenswürdigkeiten&nbsp;vorbei.  "
 
       - id: poi-1-3
         title: Yoga an der Manatee&nbsp;Lagoon
-        description: "Das Wahrzeichen Floridas sind die putzigen Manatees. Zwischen Northwood und Riviera Beach versammeln sich vor allem in den Wintermonaten besonders viele dieser Seekühe. Sie tummeln sich im warmen Wasser, das von einer Energieanlage produziert wird. Direkt neben den sanften Riesen können Sie gegen eine Spende Yoga praktizieren, Asanas üben und meditieren, während ab und zu eines der Tiere neugierig an die Oberfläche kommt und Ihnen über die Schulter schaut."
+        description: "Das Wahrzeichen Floridas sind die putzigen Manatees. Zwischen Northwood und Riviera Beach versammeln sich vor allem in den Wintermonaten besonders viele dieser Seekühe. Sie tummeln sich im warmen Wasser, das von einer Energieanlage produziert wird. Direkt neben den sanften Riesen können Sie gegen eine Spende Yoga praktizieren, Asanas üben und meditieren, während ab und zu eines der Tiere neugierig an die Oberfläche kommt und Ihnen über die Schulter&nbsp;schaut."

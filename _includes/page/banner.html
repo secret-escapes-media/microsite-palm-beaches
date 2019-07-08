@@ -1,6 +1,6 @@
 <div class="banner">
   <div class="site-header__offset"></div>
-  <div class="banner__bg bv-parallax bv-banner-out" style="background-image: url('{{site.img}}/content/hero.jpg'); opacity: .8;"></div>
+  <div class="banner__bg bv-parallax bv-banner-out" style="background-image: url('{{site.img}}/content/hero.jpg'); opacity: .8; {{page.banner.bg-pos}}"></div>
   <div class="banner__wrap">
     {% if page.banner.content %}
       {{page.banner.content | liquify}}
@@ -11,6 +11,7 @@
         <h1 class="banner-title bv-title-yellow ">{% if page.banner.title %}{{page.banner.title}}{% else %}{{page.title}}{% endif %}</h1>
         <div class="space--xl"></div>
         {% if page.banner.title-sub %}<h2 class="sub-title sub-title--lg">{{page.banner.title-sub}}</h2>{% endif %}
+          <div id="bv-myBtn" style="cursor: pointer;" class=" btn btn--bv-orange" >Video ansehen </div>
       </div>
     {% endif %}
   </div>
@@ -18,4 +19,18 @@
     {% include nav/sections.html %}
   </div>
   <div class="site-nav__offset"></div>
+</div>
+
+<div id="bv-myModal" class="bv-modal">
+
+  <div class="bv-close" ></div>
+  <div class="bv-modal-content-details">
+    <div class="bv-mySlides">
+    <div class="bv-iframe-ratio" >
+      <iframe class="" id="video" src="https://www.youtube.com/embed/iaDd8qkHmIs?enablejsapi=1&controls=1&rel=0&autoplay=0&showinfo=0&modestbranding=1" frameborder="0" width="550" height="281" allow="encrypted-media" allowfullscreen><img src="{{site.img}}/content/hero.jpg"></iframe></div>
+
+
+    </div>
+
+</div>
 </div>

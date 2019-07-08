@@ -12,158 +12,80 @@
     {% include page/banner.html %}
 
     <div class="content-spacing section-spacing">
-
-
       <div class=" vpad--xxl  ">
         <div class="container">
           <div class="width width--xl">
-             <h2 class="title title--lg text--blue text--bold">{{page.headline}}</h2>
-             <div class="space--sm "></div>
-             <div class="text text--xxl text--normal text--justify"><p class="">{{page.intro}} </p></div>
-             <div class="space--lg "></div>
-              <h5 class="title title--xs  text--blue text--bold">Ich bin ein:</h5>
-
-              <a href="#one" class="btn btn--gradient"> Jetsetter </a>
-               <a href="#two" class="btn btn--gradient"> Strandkind </a>
-                <a href="#three" class="btn btn--gradient"> Luxusliebhaber </a>
-                 <a href="#four" class="btn btn--gradient"> Abenteurer </a>
-
+            <h2 class="title title--lg text--blue text--bold">{{page.headline}}</h2>
+            <div class="space--sm "></div>
+            <div class="text text--xxl text--normal text--justify"><p class="">{{page.intro}}</p></div>
+            <div class="space--lg "></div>
+            <h5 class="title title--xs  text--blue text--bold">Ich bin ein:</h5>
+            <a href="#one" class="btn btn--arrow"> Jetsetter </a>
+            <a href="#two" class="btn btn--arrow"> Strandkind </a>
+            <a href="#three" class="btn btn--arrow">Luxusliebhaber</a>
+            <a href="#four" class="btn btn--arrow"> Abenteurer </a>
           </div>
         </div>
       </div>
 
 
+<!-- loops through section file for page content -->
+{% for section in site.data.sections %}
 
-      <!-- loops through section file for page content -->
-      {% for section in site.data.sections %}
-
-  <div id="{{section.id}}"  class="bv-section-bg js-nav-section">
-    <div class="bv-parallax vpad--xxl bv-hero-out"  style="background-image: url('{{site.img}}/content/{{section.nav-title}}/hero.jpg'); opacity: 1;">
-      <div class="container text--white">
-
-        <div class="space--xxxl"></div>
-        <div class="row row--justify row--xl-4-4-4 row--gutters ">
-          <div class="col--xl-8 boxpad--xl text--xxxl text--normal">
-          <div class="title title--xl text--bold bv-title-divider">{{section.title}}</div>
-          <div class="space--sm "></div>
-          <p>{{section.description}}</p>
-          <div class="space--xxl"></div>
+      <div id="{{section.id}}"  class="bv-section-bg js-nav-section">
+        <div class="bv-parallax vpad--xxl "  style="background-image: url('{{site.img}}/content/{{section.nav-title}}/hero.jpg'); {{section.bg-pos}}">
+          <div class="container text--white">
+            <div class="space--xxxl"></div>
+              <div class="row row--justify row--xl-4-4-4 row--gutters ">
+                <div class="col--xl-8 boxpad--xl text--xxxl text--normal">
+                <div class="title title--xl text--bold bv-title-divider">{{section.title}}</div>
+                <div class="space--sm "></div>
+                <p>{{section.description}}</p>
+                <div class="space--xxl"></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-</div>
-    <div class="bg--white" >
+      <div class="bg--white" >
         <div class="container vpad--lg">
             <div class="row row--xl-4-4-4 row--lg-6-6 row--gutters " >
-                {% for poi in section.pois.items %}
-                <div class="col text--normal">
-          <div class="bg-img bg--white bg-img--4-3" style="background-image:url({{site.img}}/content/{{section.nav-title}}/{{poi.id}}.jpg);"> </div>
-          <div class="space--md"></div>
-          <h5 class="title title--xs  text--blue text--bold">{{poi.title}}</h5>
-          <p>{{poi.description}}</p>
+              {% for poi in section.pois.items %}
+              <div class="col text--normal text--justify">
+                <div class="bg-img bg--white bg-img--4-3" style="background-image:url({{site.img}}/content/{{section.nav-title}}/{{poi.id}}.jpg);"> </div>
+                <div class="space--md"></div>
+                <h5 class="title title--xs text--left text--blue text--bold">{{poi.title}}</h5>
+                <p>{{poi.description}}</p>
+              </div>
+              {% endfor %}
+            </div>
+            <div class="space--xxl"></div>
         </div>
-
-                {% endfor %}
-              </div>
-
-
-              <div class="space--xxl"></div>
-
-          </div>
-          </div>
-    <div id="{{section.id}}" class="harvey {% cycle '', ' harvey--swap' %} text--white bg--darkblue">
-      <div class="harvey__img" style="background-image: url('{{site.img}}/content/{{section.nav-title}}/special.jpg');"></div>
-      <div class="harvey__text boxpad--lg text text--xxl  text--normal text--justify">
-        <div class="space--xs"></div>
-        <h4 class="title title--xxxs text--upper text--left text--normal">Unser Tipp für {{section.special-tip-pre}}{{section.nav-title}}: </h4>
-        <div class="space--sm"></div>
-        <h2 class="title title--md text--yellow text--upper text--left text--bold"> {{section.special-tip-title}}</h2>
-          <div class="space--xs"></div>
-          <p>{{section.special-tip-content}}</p>
       </div>
-    </div>
-      {% endfor %}
-
-      <!-- Root element of PhotoSwipe. Must have class pswp. -->
-      <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
-          <!-- Background of PhotoSwipe.
-               It's a separate element as animating opacity is faster than rgba(). -->
-          <div class="pswp__bg"></div>
-
-          <!-- Slides wrapper with overflow:hidden. -->
-          <div class="pswp__scroll-wrap">
-
-              <!-- Container that holds slides.
-                  PhotoSwipe keeps only 3 of them in the DOM to save memory.
-                  Don't modify these 3 pswp__item elements, data is added later on. -->
-              <div class="pswp__container">
-                  <div class="pswp__item"></div>
-                  <div class="pswp__item"></div>
-                  <div class="pswp__item"></div>
-              </div>
-
-              <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-              <div class="pswp__ui pswp__ui--hidden">
-
-                  <div class="pswp__top-bar">
-
-                      <!--  Controls are self-explanatory. Order can be changed. -->
-
-                      <div class="pswp__counter"></div>
-
-                      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-
-                      <button class="pswp__button pswp__button--share" title="Share"></button>
-
-                      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-
-                      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-
-                      <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
-                      <!-- element will get class pswp__preloader--active when preloader is running -->
-                      <div class="pswp__preloader">
-                          <div class="pswp__preloader__icn">
-                            <div class="pswp__preloader__cut">
-                              <div class="pswp__preloader__donut"></div>
-                            </div>
-                          </div>
-                      </div>
-                  </div>
-
-                  <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                      <div class="pswp__share-tooltip"></div>
-                  </div>
-
-                  <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-                  </button>
-
-                  <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-                  </button>
-
-                  <div class="pswp__caption">
-                      <div class="pswp__caption__center"></div>
-                  </div>
-
-              </div>
-
-          </div>
-
+      <div id="{{section.id}}" class="harvey {% cycle '', ' harvey--swap' %} text--white bg--darkblue">
+        <div class="harvey__img" style="background-image: url('{{site.img}}/content/{{section.nav-title}}/special.jpg');"></div>
+          <div class="harvey__text boxpad--lg text text--xxl  text--normal text--justify">
+            <div class="space--xs"></div>
+            <h4 class="title title--xxxs text--upper text--left text--normal">Unser Tipp für {{section.special-tip-pre}}{{section.nav-title}}: </h4>
+            <div class="space--sm"></div>
+            <h2 class="title title--md text--yellow text--upper text--left text--bold"> {{section.special-tip-title}}</h2>
+            <div class="space--xs"></div>
+            <p>{{section.special-tip-content}}</p>
+        </div>
       </div>
 
+{% endfor %}
 
 
-      <!-- Offers section -->
+<!-- Offers section -->
       <div id="offers" class="js-nav-section">
         <div class="space--xxxl"></div>
-        <div class="title title--xxxl text--center">Latest Offers</div>
+        <div class="title title--xl text--blue text--bold text--upper text--center">Latest Offers</div>
         <div class="space--xxl"></div>
         {% include offer/all-offers.html %}
         <div class="space--xxxl"></div>
         {% include page/promo-offers.html %}
       </div>
-
 
     </div>
 
