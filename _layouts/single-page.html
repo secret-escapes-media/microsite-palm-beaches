@@ -17,7 +17,7 @@
           <div class="width width--xl">
             <h2 class="title title--lg text--blue text--bold">{{page.headline}}</h2>
             <div class="space--sm "></div>
-            <div class="text text--xxl text--normal text--justify"><p class="">{{page.intro}}</p></div>
+            <div class="text text--xxl text--normal "><p class="">{{page.intro}}</p></div>
             <div class="space--lg "></div>
             <h5 class="title title--xs  text--blue text--bold">Ich bin ein:</h5>
             <a href="#one" class="btn btn--arrow"> Jetsetter </a>
@@ -51,7 +51,7 @@
         <div class="container vpad--lg">
             <div class="row row--xl-4-4-4 row--lg-6-6 row--gutters " >
               {% for poi in section.pois.items %}
-              <div class="col text--normal text--justify">
+              <div class="col text--normal text text--justify">
                 <div class="bg-img bg--white bg-img--4-3" style="background-image:url({{site.img}}/content/{{section.nav-title}}/{{poi.id}}.jpg);"> </div>
                 <div class="space--md"></div>
                 <h5 class="title title--xs text--left text--blue text--bold">{{poi.title}}</h5>
@@ -64,7 +64,7 @@
       </div>
       <div id="{{section.id}}" class="harvey {% cycle '', ' harvey--swap' %} text--white bg--darkblue">
         <div class="harvey__img" style="background-image: url('{{site.img}}/content/{{section.nav-title}}/special.jpg');"></div>
-          <div class="harvey__text boxpad--lg text text--xxl  text--normal text--justify">
+          <div class="harvey__text boxpad--lg text text--xxl text--normal">
             <div class="space--xs"></div>
             <h4 class="title title--xxxs text--upper text--left text--normal">Unser Tipp für {{section.special-tip-pre}}{{section.nav-title}}: </h4>
             <div class="space--sm"></div>
@@ -88,7 +88,6 @@
       </div>
 
     </div>
-
 
     {% include page/footer.html %}
 
