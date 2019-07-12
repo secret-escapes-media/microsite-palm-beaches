@@ -32,11 +32,6 @@
      }
    }
 
-.bv-pois-margin{
-
-  margin-top: auto;
-  @include bp($md) { margin-top: -150px; }
-}
 
 
 /* ==========================================================================
@@ -149,7 +144,6 @@
   background-size: cover;
 
 }
-
 
 @media only screen and (max-width: 1024px) {
 

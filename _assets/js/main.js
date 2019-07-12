@@ -1,7 +1,7 @@
 // general js for the project that wouldn't be a reuseable component
 
 
-/*********** Blur and change colour of hero images  *************/
+/*********** Blur and change text colour of hero image  *************/
 
 
 $(window).on('scroll', function () {
@@ -28,6 +28,7 @@ var isFirefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
 });
 
 
+/*********** Play video  *************/
 
 // Get the modal
 var modal = document.getElementById('bv-myModal');
